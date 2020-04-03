@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Dranken\Dranken\bin\Debug\Dranken.exe.config
+C:\Users\Admin\source\repos\Dranken\Dranken\bin\Debug\Dranken.exe
+C:\Users\Admin\source\repos\Dranken\Dranken\bin\Debug\Dranken.pdb
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken_MarkupCompile.cache
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken_MarkupCompile.lref
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.g.resources
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.Properties.Resources.resources
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.exe
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.pdb

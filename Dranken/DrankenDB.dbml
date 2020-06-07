@@ -3,9 +3,9 @@
   <Table Name="dbo.dranken" Member="drankens">
     <Type Name="dranken">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="Naam" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Soort" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Prijs" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Naam" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Soort" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="Prijs" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

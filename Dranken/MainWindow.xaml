@@ -6,8 +6,17 @@
         xmlns:local="clr-namespace:Dranken"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <DataGrid x:Name="dgDranken" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="335"/>
+    <Grid Background="#FF00FFD1">
+        <DataGrid x:Name="dgDranken2" HorizontalAlignment="Left" Height="290" Margin="51,51,0,0" VerticalAlignment="Top" Width="237" MouseDoubleClick="dgDranken2_MouseDoubleClick" Background="#FF8AFFEF"/>
+        <Button x:Name="BtnSave" Content="toevoegen" HorizontalAlignment="Left" Margin="339,346,0,0" VerticalAlignment="Top" Width="75" Click="BtnSave_Click" Height="25" Background="#FF8AFFEF"/>
+        <TextBox x:Name="Prijstxt" HorizontalAlignment="Left" Height="35" Margin="311,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Background="#FF8AFFEF"/>
+        <TextBox x:Name="Dranksoorttxt" HorizontalAlignment="Left" Height="35" Margin="311,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Background="#FF8AFFEF"/>
+        <TextBox x:Name="KlantNaamtxt" HorizontalAlignment="Left" Height="35" Margin="311,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Background="#FF8AFFEF"/>
+        <TextBlock HorizontalAlignment="Left" Margin="311,172,0,0" TextWrapping="Wrap" Text="Naam" VerticalAlignment="Top" RenderTransformOrigin="0.488,-1.316"/>
+        <TextBlock HorizontalAlignment="Left" Margin="311,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Drank"/><Run Text=" "/><Run Text="naam"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="311,286,0,0" TextWrapping="Wrap" Text="prijs" VerticalAlignment="Top"/>
+        <Button x:Name="btnEdit" Content="Wijzigen" HorizontalAlignment="Left" Margin="211,346,0,0" VerticalAlignment="Top" Width="77" Height="25" RenderTransformOrigin="1.84,1.304" Click="btnEdit_Click" Background="#FF8AFFEF"/>
+        <Button x:Name="btnNext" Content="volgende" HorizontalAlignment="Left" Margin="676,10,0,0" VerticalAlignment="Top" Width="108" Height="24" Click="btnNext_Click" Background="#FF8AFFEF"/>
 
     </Grid>
 </Window>

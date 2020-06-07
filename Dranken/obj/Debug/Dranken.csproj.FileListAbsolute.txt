@@ -12,3 +12,6 @@ C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.Properties.Resourc
 C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.exe
 C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.pdb
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Dranken.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Window1.g.cs
+C:\Users\Admin\source\repos\Dranken\Dranken\obj\Debug\Window1.baml

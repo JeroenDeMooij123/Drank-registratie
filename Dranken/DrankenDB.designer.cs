@@ -86,7 +86,7 @@ namespace Dranken
 		
 		private string _Soort;
 		
-		private System.Nullable<decimal> _Prijs;
+		private string _Prijs;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -98,7 +98,7 @@ namespace Dranken
     partial void OnNaamChanged();
     partial void OnSoortChanging(string value);
     partial void OnSoortChanged();
-    partial void OnPrijsChanging(System.Nullable<decimal> value);
+    partial void OnPrijsChanging(string value);
     partial void OnPrijsChanged();
     #endregion
 		
@@ -127,7 +127,7 @@ namespace Dranken
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Naam", DbType="VarChar(50)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Naam", DbType="NChar(50)")]
 		public string Naam
 		{
 			get
@@ -147,7 +147,7 @@ namespace Dranken
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Soort", DbType="VarChar(50)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Soort", DbType="NChar(15)")]
 		public string Soort
 		{
 			get
@@ -167,8 +167,8 @@ namespace Dranken
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Prijs", DbType="Decimal(18,0)")]
-		public System.Nullable<decimal> Prijs
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Prijs", DbType="NChar(10)")]
+		public string Prijs
 		{
 			get
 			{
